@@ -1,0 +1,25 @@
+body {
+    background-color: lightsteelblue;
+}
+
+.countries {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    margin: 50px;
+}
+
+.fill_white {
+    fill: white;
+}
+
+.fill_blue {
+    fill: blue;
+}
+
+.fill_red {
+    fill: red;
+}
+
