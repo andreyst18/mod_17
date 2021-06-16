@@ -30,7 +30,7 @@
 .input_area_field {
     margin: 10px 5px 10px 10px;
     width: 60%;
-    height: 40%;
+    height: 48%;
 }
 
 #input_area_btn, #input_geo {
@@ -58,15 +58,16 @@
 }
 
 #messages_area {
-    margin: 0px 10px 10px 10px;
-    height: 79%;
+    margin: 0px 10px 0px;
+    height: 81%;
     overflow-y: auto;
     background-color: white;
     
 }
 
 #inputMessage {
-    width: 98%;
+    width:98.7%;
+    height: 90%;
     border: none;
 }
 
