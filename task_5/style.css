@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .chat_form {
-    width: 550px;
+    width: 520px;
     height: 350px;
-    
+    background-color: rgb(205, 243, 217);
 }
 
 .frame {
     border: solid;
-    border-color: rgb(164, 182, 218);
-    border-width: 4px;
+    border-color: rgb(174, 197, 186);
+    border-width: 2px;
 }
 
 .input_area {
@@ -30,28 +33,40 @@
     height: 40%;
 }
 
-#input_area_btn {
+#input_area_btn, #input_geo {
     margin: 10px 10px 10px 5px;
-    width: 30%;
+    width: 20%;
     height: 54%;
     border: none;
-    background-color: rgb(226, 230, 241);
     font-weight: bold;
 }
 
+#input_area_btn {
+    background-color: rgb(155, 212, 174);
+}
+
 #input_area_btn:hover {
-    background-color: rgb(196, 205, 235);
+    background-color: rgb(42, 167, 90);
+}
+
+#input_geo {
+    background-color: rgb(158, 222, 238);
+}
+
+#input_geo:hover {
+    background-color: rgb(121, 170, 235);
 }
 
 #messages_area {
     margin: 0px 10px 10px 10px;
     height: 79%;
     overflow-y: auto;
+    background-color: white;
     
 }
 
 #inputMessage {
-    width: 96%;
+    width: 98%;
     border: none;
 }
 
@@ -64,23 +79,23 @@
     border: solid;
     border-color: rgb(196, 205, 235);
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 15px 10px;
 }
 
 
 .userMessage {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .serverMessage {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .serverMessage, .userMessage {
-    margin: 10px 10px;
+    margin: 10px 25px;
 }
 

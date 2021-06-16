@@ -7,6 +7,10 @@ const outputArea = document.getElementById('messages_area');
 let websocket;
 websocket = new WebSocket(wsUri);
 
+websocket.onopen = function(evt) {
+    writeToScreen("CONNECTED");
+  };
+
 sendMessage.addEventListener('click', () => {
     const message = inputMessage.value;
     inputMessage.value = '';
